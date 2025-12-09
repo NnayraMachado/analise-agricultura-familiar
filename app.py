@@ -16,7 +16,7 @@ st.set_page_config(
     page_icon="🌱"
 )
 
-FILE_PATH = r"C:\Users\nirva\OneDrive\Área de Trabalho\Adai\DADOS\DADOS-AGRICULTURA_FAMILIAR\AGRICULTURA_FAMILIAR.xlsx"
+FILE_PATH = "AGRICULTURA_FAMILIAR.xlsx"
 
 @st.cache_data
 def load_data():
@@ -308,4 +308,5 @@ Este ambiente foi criado para que:
 
 O objetivo central é fortalecer o protagonismo das pessoas atingidas, qualificando o debate público e contribuindo para processos de reparação justa e efetiva.
     """)
+
 
